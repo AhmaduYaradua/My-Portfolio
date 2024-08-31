@@ -1,0 +1,111 @@
+/* Imported font family from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+/* universal presets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ends here */
+}
+body {
+  color: #36454f;
+}
+/* image,links and lists presets */
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #36454f;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+/* Ends here */
+
+/* Navigation bar styling */
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border-bottom: 0.1rem solid black;
+}
+#logo {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  font-style: normal;
+}
+/* @media screen and (min-width: 600px) {
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+.list-tag {
+  display: none;
+  flex-direction: row;
+  margin-right: 30px;
+  gap: 50px;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+}
+@media screen and (min-width: 600px) {
+  .list-tag {
+    display: flex;
+  }
+}
+/* Ends here */
+
+/* Hero section styling */
+#myname {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-inline: 80px;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 100px;
+}
+#myname img {
+  height: 400px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+#role {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+/* Ends here */
+
+/* Footer styling */
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 10px;
+  border-top: 0.1rem solid black;
+  padding-top: 5px;
+}
+/* Ends here */

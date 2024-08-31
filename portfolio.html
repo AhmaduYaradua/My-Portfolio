@@ -4,55 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body style="background-color: rgb(240, 250, 248)" />
-    <h1 style="text-align: center" style="color: #665555">
-      <header>
-      <b>M</b>y <i> <u>Portfolio</u></i>
-    </h1>
-    <section>
-      <a href="home.html"><b>HOME</b></a>
-      <a href="about.html"><b>About</b></a>
-      <a href="work.html"><b>Work</b></a>
-      <a href="resume.html"><b>Resume</b></a>
-      <a href="contact.html"><b>Contact</b></a>
-    </section>
+  <body>
+    <!-- Navigation Section -->
+    <header>
+      <nav id="nav-bar">
+        <h1 id="logo">DevFolio</h1>
+        <ul class="list-tag">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">WORK</a></li>
+          <li><a href="#">RESUME</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <!-- Ends here -->
     </header>
+    <!-- Hero Section -->
     <section>
-    <h2 style="text-align: left"><b>HELLO, its me</b></h2>
-    <h1 style="text-align: left">
-      <b
-        ><u><i>Ahmad Yaradua</i></u></b
-      >
-    </h1>
-    <h2 style="text-align: center">And I am a <b>full Stack Developer</b></h2>
+      <div id="myname">
+        <h2>
+          HELLO, its me<br />
+          Ahmad Yaradua
+        </h2>
+        <img src="shh.jpg" alt="mypicture" />
+      </div>
+      <div id="role">
+        <h1>And I am a full Stack Developer</h1>
+      </div>
     </section>
-    <section>
-    <center>
-      <iframe
-        width="1000"
-        height="280"
-        src="https://www.youtube.com/embed/HsFQwOEwTVA"
-        title="The Hangover Alans Funniest Moments"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen>
-      </iframe>
-    </center>
-    </section>
+
+    <!-- Ends here -->
+
+    <!-- Footer section -->
     <footer>
-    <form>
-      <select>
-        <div>
-        <option value="My contacts">Contact Me</option>
-        <option value="Phone Number">+234-8166191405</option>
-        <option value="Email">abuahmada3@gmail.com</option>
-        <option value="GitHub Account">AhmaduYaradua on Github</option>
-        <option value="X Account">Ahmadu_Yaradua on X</option>
-        </div>
-      </select>
-    </form>
+      <section id="socials">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-phone"></i>
+      </section>
     </footer>
+    <!-- Ends here -->
+    <script
+      src="https://kit.fontawesome.com/a61736af53.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
